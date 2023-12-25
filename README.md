@@ -8,7 +8,8 @@ Want to try out Kali Linux or want to have a mini version of kali linux availabl
 ## Description
 This project uses the official [kali linux rolling](https://hub.docker.com/r/kalilinux/kali-rolling/) image to deploy a container which can then be used to install most of the cli tools which comes with kali linux pre-installed. Behind the scenes, it uses [ttyd](https://github.com/tsl0922/ttyd) to provide a hassel free and a very accessible way to access the command line.
 
-![image](https://github.com/Mys7erio/kali-railway/assets/25553029/ddfe605d-9c61-4975-bbd6-3e392d8fa2fe)
+![image](https://github.com/Mys7erio/kali-railway/assets/25553029/8b338827-fa0c-4dbb-bf06-cba5b0f9d8a5)
+
 
 
 
