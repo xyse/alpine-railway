@@ -19,12 +19,16 @@ This project uses the official [kali linux rolling](https://hub.docker.com/r/kal
   - **PASSWORD:** The password which will be used to login to the web shell.
 
 ### Railway Default Enviroment Variables
-When deploying to Railway, the enviroment variables will have the following default values
+When deploying to Railway, the USERNAME and PASSWORD enviroment variables will be set to a random string, thanks to railway's [template variables](https://docs.railway.app/guides/create#template-variable-functions)
   - PORT: Defaults to 8080
-  - USERNAME: Defaults to "root"
-  - PASSWORD: Defaults to "toor"
-
+  - USERNAME: A random string of 16 characters containing only alpha-numeric characters (a-z, A-Z, 0-9)
+  - PASSWORD: A random string of 32 characters
+ 
 **NOTE:** It is strongly adviced to provide the USERNAME and PASSWORD enviroment variables before deploying the project.
+
+To view or edit the USERNAME and PASSWORD enviroment variables, click on the deployed template -> Variables tab
+
+![image](https://github.com/Mys7erio/kali-railway/assets/25553029/f35d30d4-9b7f-45f1-af68-7cceb3a58a35)
 
 
 ## Using locally
