@@ -1,4 +1,4 @@
-# alpine-railway
+# docker-alpine-vps
 
 *Want a minimal vps, with easy terminal access?*
 
