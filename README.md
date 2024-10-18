@@ -8,7 +8,7 @@
 
 Railway provides a generous free tier, go ahead and try it.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/0zp5dt?referralCode=8FcSW5)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/kCNLnh?referralCode=8FcSW5)
 
 > You will be asked to provide a username and password. This will be the credentials for your web shell.
 
