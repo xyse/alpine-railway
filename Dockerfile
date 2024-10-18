@@ -1,8 +1,6 @@
-FROM kalilinux/kali-rolling
+FROM alpine:3.20
 
-RUN apt-get update && \
-    apt-get upgrade -y && \
-    apt-get -y install wget
+RUN apk add wget 
 
 RUN wget -qO /bin/ttyd https://github.com/tsl0922/ttyd/releases/download/1.7.3/ttyd.x86_64 && \
     chmod +x /bin/ttyd
