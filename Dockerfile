@@ -1,8 +1,10 @@
 FROM alpine:3.20
 
-RUN apk add wget bash ttyd
+ARG USERNAME
+ARG PASSWORD
 
-EXPOSE $PORT
-RUN echo $CREDENTIAL > /tmp/debug
+RUN apk add ttyd
 
-CMD ["sh", "-c", "ttyd -W -p $PORT -c $USERNAME:$PASSWORD sh"]
+EXPOSE 8080
+
+CMD ["sh", "-c", "ttyd -W -p 8080 -c $USERNAME:$PASSWORD sh"]
