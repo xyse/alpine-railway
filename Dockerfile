@@ -5,4 +5,4 @@ RUN apk add wget bash ttyd
 EXPOSE $PORT
 RUN echo $CREDENTIAL > /tmp/debug
 
-CMD ["/bin/bash", "-c", "ttyd -p $PORT -c $USERNAME:$PASSWORD /bin/bash"]
+CMD ["sh", "-c", "ttyd -W -p $PORT -c $USERNAME:$PASSWORD sh"]
