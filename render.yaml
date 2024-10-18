@@ -1,0 +1,14 @@
+services:
+- type: web
+  name: docker-alpine-vps
+  runtime: docker
+  repo: https://github.com/xyse/docker-alpine-vps
+  plan: free
+  envVars:
+  - key: PASSWORD
+    sync: false
+  - key: USERNAME
+    sync: false
+  dockerContext: .
+  dockerfilePath: ./Dockerfile
+version: "1"

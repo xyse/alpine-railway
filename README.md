@@ -6,9 +6,11 @@
 
 **🪄 Easily extendable to your likings ✨**
 
-Railway provides a generous free tier, go ahead and try it.
+Various hosting services provide a generous free tier, go ahead and try it.
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/kCNLnh?referralCode=8FcSW5)
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/xyse/docker-alpine-vps)
 
 > You will be asked to provide a username and password. This will be the credentials for your web shell.
 
